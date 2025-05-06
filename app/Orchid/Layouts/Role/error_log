@@ -1,0 +1,72 @@
+[30-Jun-2024 20:39:48 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15
+[30-Jun-2024 23:04:51 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[01-Jul-2024 00:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[02-Jul-2024 23:22:30 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[03-Jul-2024 01:34:26 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15
+[03-Jul-2024 18:32:09 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[17-Jul-2024 00:32:10 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[17-Jul-2024 00:32:11 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[17-Jul-2024 00:32:11 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15
+[17-Jul-2024 00:32:23 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[17-Jul-2024 00:32:24 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[17-Jul-2024 00:32:24 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15
+[14-Aug-2024 00:31:21 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[14-Aug-2024 00:31:21 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[14-Aug-2024 00:31:21 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15
+[14-Aug-2024 00:31:41 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleEditLayout.php on line 11
+[14-Aug-2024 00:31:41 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RoleListLayout.php on line 14
+[14-Aug-2024 00:31:42 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Rows" not found in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Role/RolePermissionLayout.php on line 15

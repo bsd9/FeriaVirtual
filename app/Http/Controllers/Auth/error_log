@@ -1,0 +1,24 @@
+[06-Jul-2024 00:11:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19
+[09-Jul-2024 21:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19
+[17-Jul-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19
+[17-Jul-2024 00:31:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19
+[14-Aug-2024 00:30:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19
+[14-Aug-2024 00:30:40 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Auth/LoginController.php on line 19

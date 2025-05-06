@@ -1,0 +1,224 @@
+[29-Jun-2024 18:12:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[29-Jun-2024 18:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[29-Jun-2024 21:39:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[29-Jun-2024 21:48:12 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[29-Jun-2024 22:00:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[29-Jun-2024 22:06:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[29-Jun-2024 22:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[30-Jun-2024 00:22:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[30-Jun-2024 02:33:01 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[30-Jun-2024 05:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[30-Jun-2024 19:08:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[30-Jun-2024 19:09:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[30-Jun-2024 19:11:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[01-Jul-2024 18:30:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[02-Jul-2024 03:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[02-Jul-2024 05:15:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[02-Jul-2024 06:29:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[03-Jul-2024 02:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[03-Jul-2024 02:54:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[03-Jul-2024 02:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[17-Jul-2024 00:32:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[17-Jul-2024 00:32:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[17-Jul-2024 00:32:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[17-Jul-2024 00:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[17-Jul-2024 00:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[17-Jul-2024 00:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[17-Jul-2024 00:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[17-Jul-2024 00:32:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[17-Jul-2024 00:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[17-Jul-2024 00:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[17-Jul-2024 00:32:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[17-Jul-2024 00:32:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[17-Jul-2024 00:32:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[17-Jul-2024 00:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[14-Aug-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[14-Aug-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[14-Aug-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[14-Aug-2024 00:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[14-Aug-2024 00:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[14-Aug-2024 00:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[14-Aug-2024 00:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[14-Aug-2024 00:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2024 00:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[14-Aug-2024 00:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[14-Aug-2024 00:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[14-Aug-2024 00:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[14-Aug-2024 00:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[15-Aug-2024 13:06:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/fair360com/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/EventServiceProvider.php on line 10
+[15-Aug-2024 19:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/PermissionServiceProvider.php on line 9
+[17-Aug-2024 01:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11
+[17-Aug-2024 06:47:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AppServiceProvider.php on line 7
+[17-Aug-2024 13:35:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/BroadcastServiceProvider.php on line 8
+[17-Aug-2024 19:12:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/AuthServiceProvider.php on line 8
+[18-Aug-2024 14:51:35 UTC] PHP Fatal error:  Uncaught Error: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/TelescopeServiceProvider.php on line 10
+[20-Aug-2024 17:57:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Providers/RouteServiceProvider.php on line 11

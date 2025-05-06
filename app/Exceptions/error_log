@@ -1,0 +1,28 @@
+[02-Jul-2024 10:33:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[04-Jul-2024 18:52:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[17-Jul-2024 00:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[17-Jul-2024 00:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[14-Aug-2024 00:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[14-Aug-2024 00:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8
+[20-Aug-2024 10:10:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/fair360com/public_html/app/Exceptions/Handler.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Exceptions/Handler.php on line 8

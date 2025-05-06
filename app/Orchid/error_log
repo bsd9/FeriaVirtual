@@ -1,0 +1,28 @@
+[30-Jun-2024 18:48:02 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[03-Jul-2024 00:12:07 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[17-Jul-2024 00:31:56 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[17-Jul-2024 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[14-Aug-2024 00:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[14-Aug-2024 00:31:19 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13
+[19-Aug-2024 20:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\OrchidServiceProvider" not found in /home/fair360com/public_html/app/Orchid/PlatformProvider.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/PlatformProvider.php on line 13

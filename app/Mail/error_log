@@ -1,0 +1,204 @@
+[29-Jun-2024 17:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[29-Jun-2024 17:27:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[29-Jun-2024 17:38:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[29-Jun-2024 20:25:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[29-Jun-2024 20:29:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[29-Jun-2024 20:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[29-Jun-2024 21:01:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[29-Jun-2024 21:31:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[29-Jun-2024 21:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[30-Jun-2024 00:18:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[30-Jun-2024 00:19:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[30-Jun-2024 00:20:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[01-Jul-2024 22:17:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[01-Jul-2024 22:22:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[02-Jul-2024 00:10:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[02-Jul-2024 00:11:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[02-Jul-2024 00:12:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[02-Jul-2024 04:54:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[04-Jul-2024 00:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[04-Jul-2024 00:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[04-Jul-2024 12:11:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[17-Jul-2024 00:31:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[17-Jul-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[17-Jul-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[17-Jul-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[17-Jul-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[17-Jul-2024 00:31:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[17-Jul-2024 00:31:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[17-Jul-2024 00:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[17-Jul-2024 00:31:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[17-Jul-2024 00:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[17-Jul-2024 00:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[17-Jul-2024 00:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[14-Aug-2024 00:30:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[14-Aug-2024 00:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[14-Aug-2024 00:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[14-Aug-2024 00:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[14-Aug-2024 00:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[14-Aug-2024 00:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[14-Aug-2024 00:31:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11
+[14-Aug-2024 00:31:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[14-Aug-2024 00:31:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[14-Aug-2024 00:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[14-Aug-2024 00:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[14-Aug-2024 00:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[15-Aug-2024 08:42:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationResendCodeMail.php on line 11
+[16-Aug-2024 06:27:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ContactMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ContactMail.php on line 11
+[16-Aug-2024 10:59:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/InfoMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/InfoMail.php on line 11
+[18-Aug-2024 02:37:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/RegisterMail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/RegisterMail.php on line 12
+[18-Aug-2024 04:29:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/PromotMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/PromotMail.php on line 11
+[18-Aug-2024 10:24:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/fair360com/public_html/app/Mail/ConfirmationMail.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Mail/ConfirmationMail.php on line 11

@@ -1,0 +1,32 @@
+[29-Jun-2024 16:38:49 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[30-Jun-2024 19:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[03-Jul-2024 02:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[17-Jul-2024 00:46:24 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[17-Jul-2024 00:51:53 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[14-Aug-2024 00:51:54 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[14-Aug-2024 00:57:51 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8
+[18-Aug-2024 07:33:48 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/fair360com/public_html/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/Feature/ExampleTest.php on line 8

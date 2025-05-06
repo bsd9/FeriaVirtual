@@ -1,0 +1,36 @@
+[30-Jun-2024 07:01:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[30-Jun-2024 18:27:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[02-Jul-2024 18:07:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[04-Jul-2024 18:19:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[17-Jul-2024 00:31:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[17-Jul-2024 00:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[14-Aug-2024 00:30:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[14-Aug-2024 00:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8
+[15-Aug-2024 18:58:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/fair360com/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Console/Kernel.php on line 8

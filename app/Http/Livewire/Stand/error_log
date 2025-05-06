@@ -1,0 +1,28 @@
+[01-Jul-2024 14:40:20 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[01-Jul-2024 15:33:59 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[04-Jul-2024 04:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[17-Jul-2024 00:31:44 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[17-Jul-2024 00:31:49 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[14-Aug-2024 00:30:46 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8
+[14-Aug-2024 00:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Stand/StandsMenu.php on line 8

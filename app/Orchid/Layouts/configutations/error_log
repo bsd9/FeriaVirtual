@@ -1,0 +1,24 @@
+[04-Jul-2024 07:11:04 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13
+[06-Jul-2024 18:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13
+[17-Jul-2024 00:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13
+[17-Jul-2024 00:32:15 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13
+[14-Aug-2024 00:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13
+[14-Aug-2024 00:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Table" not found in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/configutations/ConfigurationListLayout.php on line 13

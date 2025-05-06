@@ -1,0 +1,24 @@
+[01-Jul-2024 02:29:59 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7
+[03-Jul-2024 05:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7
+[17-Jul-2024 00:32:03 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7
+[17-Jul-2024 00:32:13 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7
+[14-Aug-2024 00:31:05 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7
+[14-Aug-2024 00:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/chart/ExhibitorChartPie.php on line 7

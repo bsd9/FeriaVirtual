@@ -1,0 +1,24 @@
+[06-Jul-2024 00:54:22 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23
+[09-Jul-2024 15:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23
+[17-Jul-2024 00:32:23 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23
+[17-Jul-2024 00:32:40 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23
+[14-Aug-2024 00:31:40 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23
+[14-Aug-2024 00:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Screen" not found in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Screens/dashboard/DashboardScreen.php on line 23

@@ -1,0 +1,24 @@
+[01-Jul-2024 10:37:17 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8
+[04-Jul-2024 04:16:05 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8
+[17-Jul-2024 00:31:40 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8
+[17-Jul-2024 00:31:43 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8
+[14-Aug-2024 00:30:42 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8
+[14-Aug-2024 00:30:46 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Livewire/Mail/MailConfirmation.php on line 8

@@ -1,0 +1,216 @@
+[30-Jun-2024 11:05:50 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[30-Jun-2024 11:10:55 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[30-Jun-2024 11:12:56 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[30-Jun-2024 11:13:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[30-Jun-2024 11:15:58 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[30-Jun-2024 11:16:59 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[30-Jun-2024 11:18:00 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[30-Jun-2024 11:20:01 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8
+[30-Jun-2024 12:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[02-Jul-2024 11:15:22 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[02-Jul-2024 13:17:56 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[02-Jul-2024 13:19:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[02-Jul-2024 13:20:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[02-Jul-2024 13:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[02-Jul-2024 16:04:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[02-Jul-2024 17:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8
+[03-Jul-2024 03:21:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[03-Jul-2024 13:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[17-Jul-2024 00:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[17-Jul-2024 00:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[17-Jul-2024 00:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[17-Jul-2024 00:31:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[17-Jul-2024 00:31:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8
+[17-Jul-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[17-Jul-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[17-Jul-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[17-Jul-2024 00:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[17-Jul-2024 00:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[17-Jul-2024 00:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[17-Jul-2024 00:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8
+[14-Aug-2024 00:30:29 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[14-Aug-2024 00:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[14-Aug-2024 00:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[14-Aug-2024 00:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[14-Aug-2024 00:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[14-Aug-2024 00:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[14-Aug-2024 00:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[14-Aug-2024 00:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[14-Aug-2024 00:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8
+[14-Aug-2024 00:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/ConfirmationController.php on line 11
+[14-Aug-2024 00:30:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/Controller.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/Controller.php on line 9
+[14-Aug-2024 00:30:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/imageController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/imageController.php on line 8
+[14-Aug-2024 00:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/PrincipalController.php on line 11
+[14-Aug-2024 00:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/StandController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/StandController.php on line 11
+[14-Aug-2024 00:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorController.php on line 14
+[14-Aug-2024 00:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/visitorLayoutController.php on line 9
+[14-Aug-2024 00:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/VisitorLoginController.php on line 9
+[14-Aug-2024 00:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Http/Controllers/WelcomeController.php on line 8

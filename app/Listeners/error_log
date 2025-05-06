@@ -1,0 +1,7 @@
+[30-Jun-2024 19:06:35 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[03-Jul-2024 02:47:29 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[17-Jul-2024 00:31:49 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[17-Jul-2024 00:31:55 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[14-Aug-2024 00:30:51 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[14-Aug-2024 00:31:04 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7
+[17-Aug-2024 23:00:58 UTC] PHP Fatal error:  Trait "Illuminate\Queue\InteractsWithQueue" not found in /home/fair360com/public_html/app/Listeners/DeleteMediaListener.php on line 7

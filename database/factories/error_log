@@ -1,0 +1,28 @@
+[30-Jun-2024 00:27:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[02-Jul-2024 05:13:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[17-Jul-2024 00:32:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[17-Jul-2024 00:33:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[14-Aug-2024 00:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[14-Aug-2024 00:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11
+[20-Aug-2024 04:48:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/fair360com/public_html/database/factories/UserFactory.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/database/factories/UserFactory.php on line 11

@@ -1,0 +1,144 @@
+[30-Jun-2024 13:37:40 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[30-Jun-2024 16:58:54 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8
+[02-Jul-2024 22:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[03-Jul-2024 13:32:35 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8
+[06-Jul-2024 01:00:18 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[06-Jul-2024 01:01:20 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[06-Jul-2024 01:02:21 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[06-Jul-2024 01:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[09-Jul-2024 20:42:08 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[09-Jul-2024 20:44:08 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[09-Jul-2024 22:48:11 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[09-Jul-2024 22:50:48 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[17-Jul-2024 00:32:05 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[17-Jul-2024 00:32:05 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[17-Jul-2024 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[17-Jul-2024 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[17-Jul-2024 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[17-Jul-2024 00:32:07 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8
+[17-Jul-2024 00:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[17-Jul-2024 00:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[17-Jul-2024 00:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[17-Jul-2024 00:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[17-Jul-2024 00:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[17-Jul-2024 00:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8
+[14-Aug-2024 00:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[14-Aug-2024 00:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[14-Aug-2024 00:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8
+[14-Aug-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartBarExample.php on line 9
+[14-Aug-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartLineExample.php on line 9
+[14-Aug-2024 00:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPercentageExample.php on line 9
+[14-Aug-2024 00:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\Chart" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ChartPieExample.php on line 9
+[14-Aug-2024 00:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/ExampleElements.php on line 8
+[14-Aug-2024 00:31:36 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Screen\Layouts\TabMenu" not found in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Orchid/Layouts/Examples/TabMenuExample.php on line 8

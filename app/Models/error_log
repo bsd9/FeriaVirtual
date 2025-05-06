@@ -1,0 +1,460 @@
+[29-Jun-2024 16:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[29-Jun-2024 16:48:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[29-Jun-2024 17:01:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[29-Jun-2024 17:12:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[29-Jun-2024 18:12:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[29-Jun-2024 21:23:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[29-Jun-2024 23:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[30-Jun-2024 00:01:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[30-Jun-2024 03:52:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[30-Jun-2024 19:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[30-Jun-2024 19:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[30-Jun-2024 19:05:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[30-Jun-2024 23:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[30-Jun-2024 23:44:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[30-Jun-2024 23:45:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[01-Jul-2024 17:00:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[01-Jul-2024 18:17:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[01-Jul-2024 21:08:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[01-Jul-2024 22:41:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[02-Jul-2024 03:33:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[02-Jul-2024 05:11:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[02-Jul-2024 09:16:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[02-Jul-2024 12:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[02-Jul-2024 13:00:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[02-Jul-2024 13:15:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[03-Jul-2024 02:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[03-Jul-2024 02:46:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[03-Jul-2024 02:49:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[03-Jul-2024 02:50:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[03-Jul-2024 02:51:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[03-Jul-2024 03:19:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[03-Jul-2024 22:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[04-Jul-2024 02:55:01 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[04-Jul-2024 19:54:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[04-Jul-2024 19:56:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[06-Jul-2024 03:02:46 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[17-Jul-2024 00:31:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[17-Jul-2024 00:31:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[17-Jul-2024 00:31:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[17-Jul-2024 00:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[17-Jul-2024 00:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[17-Jul-2024 00:31:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[17-Jul-2024 00:31:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[17-Jul-2024 00:31:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[17-Jul-2024 00:31:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[17-Jul-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[17-Jul-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[17-Jul-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[17-Jul-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[17-Jul-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[17-Jul-2024 00:31:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[17-Jul-2024 00:31:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[17-Jul-2024 00:31:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[17-Jul-2024 00:31:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[17-Jul-2024 00:31:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[17-Jul-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[17-Jul-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[17-Jul-2024 00:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[17-Jul-2024 00:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[17-Jul-2024 00:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[17-Jul-2024 00:32:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[17-Jul-2024 00:32:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[17-Jul-2024 00:32:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[17-Jul-2024 00:32:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[17-Jul-2024 00:32:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[17-Jul-2024 00:32:03 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[17-Jul-2024 00:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[17-Jul-2024 00:32:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[14-Aug-2024 00:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[14-Aug-2024 00:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[14-Aug-2024 00:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[14-Aug-2024 00:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[14-Aug-2024 00:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[14-Aug-2024 00:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[14-Aug-2024 00:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[14-Aug-2024 00:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[14-Aug-2024 00:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[14-Aug-2024 00:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[14-Aug-2024 00:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[14-Aug-2024 00:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[14-Aug-2024 00:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[14-Aug-2024 00:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[14-Aug-2024 00:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[14-Aug-2024 00:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[14-Aug-2024 00:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[14-Aug-2024 00:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[14-Aug-2024 00:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[14-Aug-2024 00:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[14-Aug-2024 00:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10
+[14-Aug-2024 00:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Exhibitor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Exhibitor.php on line 13
+[14-Aug-2024 00:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[14-Aug-2024 00:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[14-Aug-2024 00:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[14-Aug-2024 00:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[14-Aug-2024 00:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[14-Aug-2024 00:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[14-Aug-2024 00:31:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[14-Aug-2024 00:31:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[18-Aug-2024 00:47:14 UTC] PHP Fatal error:  Uncaught Error: Class "Orchid\Platform\Models\User" not found in /home/fair360com/public_html/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/User.php on line 10
+[18-Aug-2024 03:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Audience.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Audience.php on line 11
+[18-Aug-2024 04:30:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Feria.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Feria.php on line 13
+[18-Aug-2024 07:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Popups.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Popups.php on line 11
+[18-Aug-2024 09:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Company.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Company.php on line 11
+[18-Aug-2024 14:51:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenRigth.php on line 8
+[18-Aug-2024 15:42:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/FacadeScreenFront.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/FacadeScreenFront.php on line 13
+[19-Aug-2024 04:05:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Stand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Stand.php on line 12
+[19-Aug-2024 17:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Category.php on line 10
+[19-Aug-2024 18:38:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/fair360com/public_html/app/Models/Visitor.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Visitor.php on line 12
+[19-Aug-2024 19:28:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Configuration.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Configuration.php on line 11
+[20-Aug-2024 10:10:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/UserSession.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/UserSession.php on line 8
+[20-Aug-2024 16:06:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Attendee.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Attendee.php on line 14
+[20-Aug-2024 16:06:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Blog.php on line 11
+[21-Aug-2024 00:17:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/fair360com/public_html/app/Models/Event.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/app/Models/Event.php on line 10

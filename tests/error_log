@@ -1,0 +1,32 @@
+[29-Jun-2024 17:37:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[29-Jun-2024 19:55:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[01-Jul-2024 17:53:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[17-Jul-2024 00:46:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[17-Jul-2024 00:51:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[14-Aug-2024 00:51:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[14-Aug-2024 00:57:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7
+[15-Aug-2024 11:17:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/fair360com/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/fair360com/public_html/tests/TestCase.php on line 7

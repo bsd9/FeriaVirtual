@@ -7,7 +7,7 @@ app.bg = {
     return $(".bg").each(function() {
       var bg, img, src;
       bg = $(this);
-      src = bg.find("img").attr("src");
+      src = "https://desarrollo_04.sistemasentry.com.co/FeriaVirtual/FeriaInicio.png";
       bg.css({
         'background-image': 'url(' + src + ')'
       });
@@ -60,32 +60,26 @@ app.carousel = {
     }
     this.time = 0;
     this.current = to;
-    delay = 50;
-    if (firstime) {
-      delay = 0;
-    }
+    delay = firstime ? 0 : 50;
+  
     el.find(".current").addClass("out").removeClass("current");
-    el.find(".carousel-thumbnail").find(".section__thumb__bar").css({
-      width: 0 + "%"
-    });
+    el.find(".carousel-thumbnail").find(".section__thumb__bar").css({ width: "0%" });
     el.find(".carousel-thumbnail").eq(to).addClass("current");
+  
     setTimeout(function() {
       el.find(".out").removeClass("out");
-      return el.find(".carousel-content").eq(to).addClass("current");
+      el.find(".carousel-content").eq(to).addClass("current");
     }, delay);
+  
     current = el.find(".carousel-thumbnail.current").index();
     if (el.find(".carousel-content video").length) {
       el.find("video")[current].pause();
       el.find("video")[current].currentTime = 0;
       el.find("video")[current].play();
     }
-    return this.autoplay(el);
-  },
+  },  
   autoplay: function(el) {
-    clearTimeout(app.carousel.timeout);
-    return app.carousel.timeout = setTimeout(function() {
-      return app.carousel.next(el);
-    }, this.duration);
+    return this.autoplay(el);
   },
   setBar: function(el) {
     return setInterval(function() {

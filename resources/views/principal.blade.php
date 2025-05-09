@@ -14,8 +14,6 @@
 
                 <div class="carousel-contents">
 
-
-
                     <div class="carousel-content">
 
                         <div class="section__bg">
@@ -33,7 +31,7 @@
 
                                         Latinoamérica!</h1>
 
-                                    <p class="section__description">Inscríbete de forma gratuita y participa del 17 al 20 de marzo de 2027 de la gran feria de ventas Virtual Ex</p>
+                                        <p class="section__description">Inscríbete de forma gratuita y participa del 17 al 20 de marzo de 2027 de la gran feria de ventas Virtual Ex</p>
 
                                     <div class="section__buttons"><a data-modal-register
 
@@ -59,7 +57,71 @@
         </div>
 
     </section>
+
+    <div class="modal modal--register" id="register">
+
+        <div class="modal__back"></div>
+
+        <div class="modal__front">
+
+            <div class="modal__box">
+
+                <div class="modal__content">
+
+                    <h3 class="modal__title titleRegister">Por favor diligencia este formulario para completar tu inscripción</h3>
+
+                    @livewire('visitors-register-modal')
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="modal modal--login">
+
+        <div class="modal__back"></div>
+
+        <div class="modal__front">
+
+            <div class="modal__box">
+
+                <div class="modal__content">
+                    <img src="img/icnLogin.png" alt="Icono login" class="icnLogin">
+                    <h3 class="modal__title titleLogin">Por favor ingresa tus datos para iniciar sesión </h3>
+
+                    <div class="modal__form">
+
+                        <div class="modal__tab">
+
+                            <div class="tabs tabs--login">
+
+
+
+                              @livewire('visitors-modal')
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
+
+@endsection
 
 @push('css')
 
@@ -67,7 +129,7 @@
 
         .required {
 
-            color: red;
+            color: #58DCFF;
 
         }
 
@@ -150,6 +212,7 @@
                 });
 
             });
+
 
 
 

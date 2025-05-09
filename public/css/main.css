@@ -132,7 +132,7 @@ textarea {
 
     font-family: 'Sarabun', sans-serif;
 
-    font-size: 14px;
+    font-size: 18px;
 
     line-height: 22px;
 
@@ -406,8 +406,19 @@ svg {
 
 }
 
-
-
+.imgHeaderIngresa{
+    width: clamp(15px, 2vw, 25px);
+    height: clamp(18px, 2vw, 27px);
+}
+.imgHeaderExplora{
+    width: 29px;
+    width: clamp(24px, 2vw, 29px);
+    height:clamp(15%, 2vw, 20px); 
+}
+.imgHeaderInscribete{
+    width: clamp(24px, 2vw, 31px);
+    height: clamp(24px, 2vw, 31px);
+}
 .col-lg-1,
 
 .col-lg-10,
@@ -4403,6 +4414,71 @@ article.article--product .article__img img {
     color: #fff;
 
 }
+.form__button .btn-register:hover {
+
+    background-color: #58DCFF;
+
+    color:#FFFFFF ;
+
+}
+
+.form__button .btn-register{
+    background-color: #FFFFFF;
+
+    color:#58DCFF ;
+
+    border: none;
+
+    margin-top: 0px;
+   
+
+   
+}
+
+.btn-registers{
+    width: 158px;
+
+    height: 45px;
+
+    border-radius: 50px;
+    
+    font-family: "Avenir Next LT Pro", sans-serif;
+
+    font-weight: bold;
+}
+.btn-registers span {
+    position: relative;
+    top: 1px; 
+  }
+ .btn-cancel{
+    background-color: transparent;
+
+    border: solid 3px #58DCFF;
+
+    color:#58DCFF ;
+
+    margin-top: 20px;
+
+    position: relative !important;
+
+    padding: 0px !important;
+        
+}
+
+.btn-cancel:hover{
+    background-color: #58DCFF;
+
+    color:#FFFFFF ;
+}
+.container-btn-register{
+    display: flex;
+
+    flex-direction: row;
+    
+    justify-content: center;
+
+    gap:24px;
+}
 
 .btn.btn--color {
 
@@ -4410,7 +4486,65 @@ article.article--product .article__img img {
 
 }
 
+.btn-flex {
+    display: flex;
+    color: #FFFFFF;
+    font-size: clamp(18px, 2vw,32px);
+    font-family: Montserrat;
+    font-weight: 500;
+    justify-content: flex-end;
+    align-items: baseline;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 8px;
+  }
+  
 
+  .btn-flex::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #58DCFF;
+    transition: width 0.3s ease;
+  }
+  
+  .containerDate{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    line-height: 48px;
+    align-self: center;
+    height: 100%;
+    line-height: initial;
+  }
+  .mes{
+    font-size: clamp(16px, 1.7vw, 28px);
+    display: flex;
+    justify-content: center;
+  }
+  .separador {
+    width: 2px;
+    background-color: #58DCFF;
+    margin: 0 10px;
+    height: 50%;
+  }
+ .header__mobile .separador{
+    height: 45px;
+ }
+  .textBoldDate{
+    font-size: clamp(22px, 2vw, 43px);
+    font-family: Montserrat;
+    font-weight: bolder;
+    line-height: 24px;
+  }
+
+  .btn-flex:hover::after {
+    width: 100%;
+  }
 
 .btn.btn--min {
 
@@ -4429,9 +4563,9 @@ article.article--product .article__img img {
     background-color: transparent;
 
     color: #fff
+    
 
 }
-
 
 
 .btn.btn--transparent {
@@ -5252,14 +5386,24 @@ input[type=checkbox]:checked,
 
 input[type=radio]:checked {
 
-    background-color: #0375bf;;
+    background-color: #FFFFFF;;
 
     background-position: 50% 50%;
 
-    border-color: #0375bf;
+    border-color: #FFFFFF;
 
 }
+input[type="checkbox"]:checked::before, input[type="radio"]:checked::before {
+    content: '\2713'; 
 
+    position: absolute;
+
+    left: 5px; 
+
+    font-size: 18px; 
+
+    color: #58DCFF; 
+  }
 
 
 .form__element {
@@ -5268,7 +5412,7 @@ input[type=radio]:checked {
 
     display: block;
 
-    margin-bottom: 0
+    margin-bottom: 8px;
 
 }
 
@@ -5294,11 +5438,13 @@ input[type=radio]:checked {
 
 .form__element .form__title__notfocus {
 
-    font-size: 13px;
+    font-size: 18px;
+    
+    font-family: Montserrat;
 
-    font-weight: 500;
+    font-weight: normal;
 
-    margin-bottom: 0;
+    margin-bottom: 4px;
 
     text-align: left
 
@@ -5384,9 +5530,9 @@ input[type=radio]:checked {
 
     opacity: 1;
 
-    border: 1px solid rgba(255, 255, 255, .3)
 
 }
+
 
 
 
@@ -5396,9 +5542,13 @@ input[type=radio]:checked {
 
 .form__element .form__input textarea {
 
-    background-color: #3d3d3b;
+    background-color: #FFFFFF;
 
-    color: #f6dc00;
+    border-radius: 8px;
+
+    color: #4D4D4D;
+
+    font-family: 'Montserrat';
 
     font-weight: 500;
 
@@ -5407,8 +5557,6 @@ input[type=radio]:checked {
     padding-right: 0
 
 }
-
-
 
 .form__element .form__select {
 
@@ -5850,7 +5998,7 @@ header.header--private .header__right {
 
 header.header--private .header__right .header__item {
 
-    padding: 0 7px;
+    padding: 0 16px;
 
     min-width: 40px;
 
@@ -6398,7 +6546,9 @@ header.header--public {
 
     transition: .5s;
 
-    background-color: transparent
+    background-color: transparent;
+
+    padding-top: 30px;
 
 }
 
@@ -6462,7 +6612,6 @@ header.header--public .header__logo img {
 
     transition: .5s;
 
-    border-radius: 50%;
 
 }
 
@@ -6508,10 +6657,13 @@ header.header--public .header__right .header__item.header__item--button {
 
         -ms-flex-align: center;
 
-        align-items: center
+        align-items: center;
 
+        gap: 35px;
 
+        align-items: flex-start;
 
+        height: 100%;
     }
 
 }
@@ -6784,11 +6936,13 @@ header.header--public .header__right {
 
     -ms-flex-align: center;
 
-    align-items: center;
+    align-items: baseline;
 
     -ms-flex-pack: justify;
 
-    justify-content: space-between
+    justify-content: space-between;
+    
+    align-self: flex-start;
 
 }
 
@@ -6796,7 +6950,7 @@ header.header--public .header__right {
 
 header.header--public .header__right .header__item {
 
-    padding: 0 7px;
+    padding: 0 16px;
 
     min-width: 40px;
 
@@ -7143,9 +7297,10 @@ header.header--public.header--static .header__logo img {
 
 
     header.header--public .header__logo img {
+  
+        width: clamp(140px, 2vw, 183px);
 
-        width: 100px
-
+        height: (150px, 2.1vw, 200px);
     }
 
 
@@ -7172,7 +7327,9 @@ header.header--public.header--static .header__logo img {
 
         -ms-flex-pack: justify;
 
-        justify-content: space-between
+        justify-content: space-between;
+
+        height: 100%;
 
     }
 
@@ -7610,7 +7767,10 @@ header.header--public.header--static .header__logo img {
 
     height: 100%;
 
-    background: rgba(0, 0, 0, .7)
+    background: #4348BC 0% 0% no-repeat padding-box;
+
+    opacity: 0.75;
+
 
 }
 
@@ -7647,24 +7807,29 @@ header.header--public.header--static .header__logo img {
 
 
 .modal .modal__checkboxs .modal__checkbox {
-
     margin: 5px;
-
-    padding-bottom: 10px
-
 }
 
-
+.modal .modal__checkboxs .padding  {
+    margin-top: 30px;
+}
+                                
+.modal .modal__checkboxs .container__terms{
+    display: flex;
+    flex-direction: row;
+}
 
 .modal .modal__checkboxs .modal__checkbox label {
 
-    font-size: 14px;
+    font-size: 16px;
 
     line-height: 18px;
 
     color: #fff;
 
-    position: relative
+    position: relative;
+
+    font-family: 'Montserrat';
 
 }
 
@@ -7676,10 +7841,17 @@ header.header--public.header--static .header__logo img {
 
     top: -2px;
 
-    margin-right: 10px
+    margin-right: 10px;
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
 
 }
-
+.modal .modal__checkboxs .modal__checkbox .terms{
+    color: #FFFFFF;
+}
 
 
 .modal .modal__icon,
@@ -7704,7 +7876,7 @@ section .section__content ul {
 
     padding: 30px;
 
-    background-color: #3d3d3b;
+    background-color: #696EE2;
 
     color: #fff;
 
@@ -7712,8 +7884,9 @@ section .section__content ul {
 
     margin: 0 auto;
 
-    position: relative
+    position: relative;
 
+    border-radius: 20px;
 }
 
 
@@ -7770,11 +7943,24 @@ section .section__content ul {
 
 .modal .modal__content .modal__title {
 
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: #58DCFF;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 24px;
+    padding: 0 100px 0 100px;
+    line-height: 1.3;
 
 }
 
+.modal .modal__content .titleRegister{
+    padding: 0 60px 0 60px;
+}
 
+.modal .modal__content .titleLogin{
+    padding: 0 100px 0 100px;
+}
 
 .modal .modal__content .modal__message:last-child {
 
@@ -7846,7 +8032,11 @@ section .section__content ul {
 
     -webkit-overflow-scrolling: touch;
 
-    height: auto
+    height: auto;
+
+    border-radius: 20px;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -7868,7 +8058,13 @@ section .section__content ul {
 
 }
 
-
+.icnLogin{
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
 
 .modal.modal--login .modal__content .modal__description strong {
 
@@ -20574,7 +20770,7 @@ button.swiper-pagination-bullet {
 
 .btn-text {
 
-    margin-right: 20px;
+    margin-right: 8px;
 
 }
 

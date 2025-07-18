@@ -1,21 +1,29 @@
 var app;
-
 app = [];
-
 app.bg = {
   init: function() {
-    return $(".bg").each(function() {
-      var bg, img, src;
-      bg = $(this);
-      src = "https://desarrollo_04.sistemasentry.com.co/FeriaVirtual/FeriaInicio.png";
-      bg.css({
-        'background-image': 'url(' + src + ')'
-      });
-      img = new Image();
-      img.src = src;
-      return img.onload = function() {
-        return bg.addClass("bg-loaded");
-      };
+    $(".bg").each(function(index) {
+      var bg = $(this);
+      var src = window.feriaImages[index] || false;
+
+      if (src) {
+        bg.css({
+          'background-image': 'url(' + src + ')'
+        });
+
+        var img = new Image();
+        img.src = src;
+
+        img.onload = function() {
+          bg.addClass("bg-loaded");
+        };
+
+        img.onerror = function() {
+          console.error("Error al cargar la imagen: ", src);
+        };
+      } else {
+        console.warn("No hay imagen para el índice: ", index);
+      }
     });
   }
 };

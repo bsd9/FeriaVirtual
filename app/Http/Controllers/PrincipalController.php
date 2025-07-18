@@ -12,15 +12,17 @@ class PrincipalController extends Controller
 {
     public function index(): View
     {
-        $slide = Feria::first();
+        $slide = Feria::with('attachment')->first();
+
         $logo = Configuration::where('level', 'basic')->first();
         $partners = Configuration::where('level', 'medium')->first();
 
         return view('principal', [
-            'imageLogo' => $logo->attachment()->first()->url,
-            'imagepartnes' => $partners->attachment()->first()->url,
+            'imageLogo' => $logo?->attachment()->first()?->url ?? '',
+            'imagepartnes' => $partners?->attachment()->first()?->url ?? '',
             'feria' => $slide,
-            'imagesSlide' => $slide->attachment->take(4),
+            'imageLogo' => $logo->attachment()->first()?->url ?? '',
+            'imagesSlide' => $slide?->attachment ?? collect(),
             'ImagesCollaborators' => Configuration::where('level', 'high')->get(),
             'blogs' => Blog::where('status', 'published')->get(),
         ]);

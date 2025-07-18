@@ -4542,6 +4542,18 @@ article.article--product .article__img img {
     line-height: 24px;
   }
 
+  .header__logo img.logo-fv {
+        max-width: 180px;
+        height: auto;
+        display: block;
+    }
+
+    .logo-fv {
+    max-width: 180px;
+    height: auto;
+    display: block;
+}
+
   .btn-flex:hover::after {
     width: 100%;
   }

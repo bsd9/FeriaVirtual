@@ -159,6 +159,7 @@ class FeriasEditScreen extends Screen
                                 ->acceptedTypes(['image/*'])
                                 ->uniqueName()
                                 ->storage('feriaImages'),
+
                             Upload::make($this->feria->exists ? 'feria.image2' : 'upload2')
                                 ->title('Imagen derecha')
                                 ->maxFiles(1)
@@ -167,24 +168,31 @@ class FeriasEditScreen extends Screen
                                 ->storage('feriaImages'),
 
                             Upload::make($this->feria->exists ? 'feria.image3' : 'upload3')
-                                ->title('imagen trasera')
+                                ->title('Imagen trasera')
                                 ->maxFiles(1)
                                 ->acceptedTypes(['image/*'])
                                 ->uniqueName()
                                 ->storage('feriaImages'),
+
                             Upload::make($this->feria->exists ? 'feria.image4' : 'upload4')
                                 ->title('Imagen izquierda')
                                 ->maxFiles(1)
                                 ->acceptedTypes(['image/*'])
                                 ->uniqueName()
                                 ->storage('feriaImages'),
+
                             Upload::make($this->feria->exists ? 'feria.image5' : 'upload5')
                                 ->title('Imagen interior')
                                 ->maxFiles(1)
                                 ->acceptedTypes(['image/*'])
                                 ->uniqueName()
                                 ->storage('feriaImages'),
-
+                            Upload::make($this->feria->exists ? 'feria.logo' : 'uploadLogo')
+                                    ->title('Logo de la feria')
+                                    ->maxFiles(1)
+                                    ->acceptedTypes(['image/*'])
+                                    ->uniqueName()
+                                    ->storage('feriaImages'),
                         ]),
                     ]),
                 ],
@@ -204,49 +212,55 @@ class FeriasEditScreen extends Screen
             'feria.city' => 'required',
         ]);
 
+        // Asigna los campos normales
+        $feria->fill($request->get('feria'));
+
+        // Campos de imágenes
         $fieldName1 = $feria->exists ? 'feria.image1' : 'upload1';
         $fieldName2 = $feria->exists ? 'feria.image2' : 'upload2';
         $fieldName3 = $feria->exists ? 'feria.image3' : 'upload3';
         $fieldName4 = $feria->exists ? 'feria.image4' : 'upload4';
         $fieldName5 = $feria->exists ? 'feria.image5' : 'upload5';
+        $fieldLogo = $feria->exists ? 'feria.logo' : 'uploadLogo'; // Nuevo campo
 
-        $feria->fill($request->get('feria'));
-
+        // Asigna los IDs de las imágenes
         if (isset($request->input($fieldName1)[0])) {
             $feria->image1 = $request->input($fieldName1)[0];
         }
+
         if (isset($request->input($fieldName2)[0])) {
             $feria->image2 = $request->input($fieldName2)[0];
         }
+
         if (isset($request->input($fieldName3)[0])) {
             $feria->image3 = $request->input($fieldName3)[0];
         }
+
         if (isset($request->input($fieldName4)[0])) {
             $feria->image4 = $request->input($fieldName4)[0];
         }
+
         if (isset($request->input($fieldName5)[0])) {
             $feria->image5 = $request->input($fieldName5)[0];
         }
+
+        // Guarda el logo
+        if (isset($request->input($fieldLogo)[0])) {
+            $feria->logo = $request->input($fieldLogo)[0];
+        }
+
+        // Guarda el modelo
         $feria->save();
 
-        $feria->attachment()->syncWithoutDetaching(
-            $request->input($fieldName1, [])
-        );
-        $feria->attachment()->syncWithoutDetaching(
-            $request->input($fieldName2, [])
-        );
-        $feria->attachment()->syncWithoutDetaching(
-            $request->input($fieldName3, [])
-        );
-        $feria->attachment()->syncWithoutDetaching(
-            $request->input($fieldName4, [])
-        );
-        $feria->attachment()->syncWithoutDetaching(
-            $request->input($fieldName5, [])
-        );
+        // Relaciona las imágenes con la feria
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldName1, []));
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldName2, []));
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldName3, []));
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldName4, []));
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldName5, []));
+        $feria->attachment()->syncWithoutDetaching($request->input($fieldLogo, [])); // Relaciona el logo
 
-        Toast::info(__('Change made successfully.'));
-        Alert::info('You have successfully created or updated the feria.');
+        Toast::info(__('Cambios guardados correctamente.'));
 
         return redirect()->route('platform.ferias');
     }

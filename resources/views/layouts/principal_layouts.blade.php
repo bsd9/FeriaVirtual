@@ -100,39 +100,7 @@
 
   @yield('content')
 
-  <footer>
-
-    <div parallax="-0.07,0" class="footer__house"><img src="{{ asset('img/logoBlanco.png') }}" title="logo fair360" alt="Feria virtual - fair 360"></div>
-
-    <div class="footer__wrap">
-
-      <div class="footer__flex">
-
-        <div class="footer__logo"> <img src="{{asset('img/welcome/logoFair360.png')}}" title="fair 360" alt="Feria virtual - fair 360"></div>
-
-        <div class="footer__text"> <span>Para mayor información o consulta escribenos a <a
-
-              href="#">fenix@puntonet.com</a></span></div>
-
-        <div class="footer__socials">
-
-          <div class="footer__social"> <a href="{{$feria->facebook}}"><span class="fab fa-facebook"></span></a></div>
-
-          <div class="footer__social"> <a href="{{$feria->instagram}}"><span class="fab fa-instagram"></span></a></div>
-
-          <div class="footer__social"> <a href="{{$feria->whatsapp}}"><span class="fab fa-whatsapp"></span></a></div>
-
-          {{-- <div class="footer__social"> <a href="{{$feria->instagram}}"><span class="fab fa-youtube"></span></a></div> --}}
-
-        </div>
-
-        <div class="footer__icon"><img src="{{ asset('img/principal/LogoBlanco.png') }}" title="logo fair360" alt="Feria virtual - fair 360"></div>
-
-      </div>
-
-    </div>
-
-  </footer>
+  <footer></footer>
 
 
 

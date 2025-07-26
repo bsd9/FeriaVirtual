@@ -81,7 +81,7 @@ class HomeEditScreen extends Screen
                         ->placeholder('Ingresa el nombre de la feria')
                         ->help('Especifica un título descriptivo corto para esta feria.')
                         ->required(),
-                    Group::make([
+                    /*Group::make([
                         Input::make('facade_screen_fronts.publicidad1')
                             ->title('Primera imagen')
                             ->type('file')
@@ -144,7 +144,7 @@ class HomeEditScreen extends Screen
                         ->placeholder('Ingresa el nombre de la feria')
                         ->help('Imagen del banner numero 4')
                         ->type('file')
-                        ->required(),
+                        ->required(),*/
                 ]),
             ]),
 
@@ -155,7 +155,7 @@ class HomeEditScreen extends Screen
     {
         $request->validate([
             'facade_screen_fronts.publicidad1' => 'required',
-            'facade_screen_fronts.publicidad2' => 'required',
+            /*'facade_screen_fronts.publicidad2' => 'required',
             'facade_screen_fronts.publicidad3' => 'required',
             'facade_screen_fronts.publicidad4' => 'required',
             'facade_screen_fronts.publicidad5' => 'required',
@@ -163,7 +163,7 @@ class HomeEditScreen extends Screen
             'facade_screen_fronts.banner1' => 'required',
             'facade_screen_fronts.banner2' => 'required',
             'facade_screen_fronts.banner3' => 'required',
-            'facade_screen_fronts.banner4' => 'required',
+            'facade_screen_fronts.banner4' => 'required',*/
 
         ]);
         $this->clearAllMediaCollections($principal);
@@ -178,7 +178,7 @@ class HomeEditScreen extends Screen
 
     protected function clearAllMediaCollections(FacadeScreenFront $principal)
     {
-        $collections = ['publicidad1', 'publicidad2', 'publicidad3', 'publicidad4', 'publicidad5', 'banner1', 'banner2', 'banner3', 'banner4'];
+        $collections = ['publicidad1'/*, 'publicidad2', 'publicidad3', 'publicidad4', 'publicidad5', 'banner1', 'banner2', 'banner3', 'banner4'*/];
         foreach ($collections as $collection) {
             $principal->clearMediaCollection($collection);
         }
@@ -189,7 +189,7 @@ class HomeEditScreen extends Screen
         if ($request->hasFile('facade_screen_fronts.publicidad1')) {
             $principal->addMedia($request->file('facade_screen_fronts.publicidad1'))->toMediaCollection('publicidad1');
         }
-        if ($request->hasFile('facade_screen_fronts.publicidad2')) {
+        /*if ($request->hasFile('facade_screen_fronts.publicidad2')) {
             $principal->addMediaFromRequest('facade_screen_fronts.publicidad2')->toMediaCollection('publicidad2');
         }
         if ($request->hasFile('facade_screen_fronts.publicidad3')) {
@@ -212,7 +212,7 @@ class HomeEditScreen extends Screen
         }
         if ($request->hasFile('facade_screen_fronts.banner4')) {
             $principal->addMediaFromRequest('facade_screen_fronts.banner4')->toMediaCollection('banner4');
-        }
+        }*/
     }
 
     public function remove()

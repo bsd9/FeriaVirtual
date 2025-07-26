@@ -9,8 +9,8 @@ use Livewire\Component;
 class SocialNetworks extends Component
 {
     public $configuration;
-
     public $feria;
+    public $horizontal = false;
 
     public function mount()
     {
@@ -20,7 +20,9 @@ class SocialNetworks extends Component
 
     public function render()
     {
-        return view('livewire.social-networks')->extends('layouts.layout')
+        return view('livewire.social-networks', [
+            'horizontal' => $this->horizontal
+        ])->extends('layouts.layout')
             ->section('content');
     }
 }

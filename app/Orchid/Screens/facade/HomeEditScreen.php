@@ -24,6 +24,16 @@ class HomeEditScreen extends Screen
      */
     public function query(FacadeScreenFront $principal): iterable
     {
+        if ($principal->exists) {
+            return [
+                'principal' => $principal,
+                'facade_screen_fronts' => [
+                    'nombre' => $principal->exists ? $principal->nombre : '',
+                    'publicidad1' => $principal->exists ? $principal->getFirstMediaUrl('publicidad1') : '',
+                ],
+            ];
+        }
+        
         return [
             'principal' => $principal,
         ];
@@ -76,18 +86,20 @@ class HomeEditScreen extends Screen
             Layout::columns([
 
                 Layout::rows([
-                    Input::make('facade_screen_fronts.nombre')
+                    Input::make('principal.nombre')
                         ->title('Nombre')
                         ->placeholder('Ingresa el nombre de la feria')
                         ->help('Especifica un título descriptivo corto para esta feria.')
-                        ->required(),
-                    /*Group::make([
-                        Input::make('facade_screen_fronts.publicidad1')
+                        ->required()
+                        ->value($this->principal->exists ? $this->principal->nombre : ''),
+                    Group::make([
+                        Input::make('principal.publicidad1')
                             ->title('Primera imagen')
                             ->type('file')
-                            ->help('Sube una imagen para la publicidad #1'),
+                            ->help('Sube una imagen para la publicidad #1')
+                            ->value($this->principal->exists ? $this->principal->getFirstMediaUrl('publicidad1') : ''),
 
-                        Input::make('facade_screen_fronts.publicidad2')
+                        /*Input::make('facade_screen_fronts.publicidad2')
                             ->title('Segunda imagen')
                             ->type('file')
                             ->help('Sube una imagen para la publicidad #2'),
@@ -95,9 +107,9 @@ class HomeEditScreen extends Screen
                         Input::make('facade_screen_fronts.publicidad3')
                             ->title('Tercera imagen')
                             ->type('file')
-                            ->help('Sube una imagen para la publicidad #3'),
+                            ->help('Sube una imagen para la publicidad #3'),*/
                     ]),
-                    Group::make([
+                    /*Group::make([
                         Input::make('facade_screen_fronts.publicidad4')
                             ->title('Cuarta imagen')
                             ->type('file')
@@ -154,7 +166,8 @@ class HomeEditScreen extends Screen
     public function createOrUpdate(Request $request, FacadeScreenFront $principal)
     {
         $request->validate([
-            'facade_screen_fronts.publicidad1' => 'required',
+            'principal.nombre' => 'required',
+            'principal.publicidad1' => 'required',
             /*'facade_screen_fronts.publicidad2' => 'required',
             'facade_screen_fronts.publicidad3' => 'required',
             'facade_screen_fronts.publicidad4' => 'required',
@@ -168,10 +181,15 @@ class HomeEditScreen extends Screen
         ]);
         $this->clearAllMediaCollections($principal);
         $this->addImagesToCollections($principal, $request);
-        $principal->fill($request->get('facade_screen_fronts'))->save();
+        $principal->fill([
+            'nombre' => $request->input('principal.nombre'),
+        ])->save();
 
-        Toast::info(__('Change made successfully.'));
-        Alert::info('You have successfully created or updated the feria.');
+        $this->clearAllMediaCollections($principal);
+        $this->addImagesToCollections($principal, $request);
+
+        Toast::info(__('Cambios realizados exitosamente.'));
+        Alert::info('Has creado o actualizado la feria correctamente.');
 
         return redirect()->route('platform.principals');
     }
@@ -186,10 +204,20 @@ class HomeEditScreen extends Screen
 
     protected function addImagesToCollections(FacadeScreenFront $principal, Request $request)
     {
-        if ($request->hasFile('facade_screen_fronts.publicidad1')) {
+        $fields = [
+            'publicidad1'
+        ];
+        
+        foreach ($fields as $field) {
+            if ($request->hasFile("principal.{$field}")) {
+                $principal->addMedia($request->file("principal.{$field}"))
+                        ->toMediaCollection($field);
+            }
+        }
+        /*if ($request->hasFile('facade_screen_fronts.publicidad1')) {
             $principal->addMedia($request->file('facade_screen_fronts.publicidad1'))->toMediaCollection('publicidad1');
         }
-        /*if ($request->hasFile('facade_screen_fronts.publicidad2')) {
+        if ($request->hasFile('facade_screen_fronts.publicidad2')) {
             $principal->addMediaFromRequest('facade_screen_fronts.publicidad2')->toMediaCollection('publicidad2');
         }
         if ($request->hasFile('facade_screen_fronts.publicidad3')) {

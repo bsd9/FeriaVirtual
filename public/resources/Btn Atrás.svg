@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Trazado_6" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Btn_Atrás" data-name="Btn Atrás" transform="translate(7.5 7.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Trazado_6)">
+      <path id="Trazado_6-2" data-name="Trazado 6" d="M50,25A25,25,0,1,1,25,0,25,25,0,0,1,50,25" transform="translate(7.5 7.5)" fill="#fff"/>
+    </g>
+    <path id="Trazado_7" data-name="Trazado 7" d="M26.876,38.352,17.522,24.99l9.354-13.362" fill="none" stroke="#4348bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

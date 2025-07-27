@@ -70,7 +70,7 @@
 
 
 
-    <foreignObject x="1%" y="50%" width="80" height="80">
+    <foreignObject x="1%" y="37%" width="80" height="80">
 
         <body xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +85,7 @@
     </foreignObject>
 
 
-    <foreignObject x="95%" y="50%" width="80" height="80">
+    <foreignObject x="95%" y="37%" width="80" height="80">
 
         <body xmlns="http://www.w3.org/1999/xhtml">
 

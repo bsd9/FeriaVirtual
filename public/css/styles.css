@@ -4168,7 +4168,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4182,7 +4182,7 @@ body {
 
 .button-image:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4238,7 +4238,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4246,7 +4246,7 @@ body {
 
     transition: opacity 0.3s ease, transform 0.3s ease;
 
-    transform: rotate(270deg);
+    transform: rotate(180deg);
 
 }
 
@@ -4254,7 +4254,7 @@ body {
 
 .button-imagen-izquierda:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4292,7 +4292,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4300,7 +4300,7 @@ body {
 
     transition: opacity 0.3s ease, transform 0.3s ease;
 
-    transform: rotate(90deg);
+    transform: rotate(0deg);
 
 }
 
@@ -4308,7 +4308,7 @@ body {
 
 .button-imagen-derecha:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4346,7 +4346,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4362,7 +4362,7 @@ body {
 
 .button-imagen-frontal:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4460,7 +4460,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4476,7 +4476,7 @@ body {
 
 .dinamy-izquierda:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4512,7 +4512,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4528,7 +4528,7 @@ body {
 
 .dinamy-derecha:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4562,7 +4562,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4578,7 +4578,7 @@ body {
 
 .button-imagen-izquierda-atras:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 
@@ -4614,7 +4614,7 @@ body {
 
     bottom: 0;
 
-    background-image: url('../resources/BAA.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     background-size: cover;
 
@@ -4630,7 +4630,7 @@ body {
 
 .button-imagen-izquierda-atras-auditorio:hover::before {
 
-    background-image: url('../resources/BAB.png');
+    background-image: url('../resources/Btn Adel.svg');
 
     opacity: 1;
 

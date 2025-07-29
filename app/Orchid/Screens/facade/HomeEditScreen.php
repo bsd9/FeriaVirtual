@@ -23,21 +23,25 @@ class HomeEditScreen extends Screen
      * @return array
      */
     public function query(FacadeScreenFront $principal): iterable
-    {
-        if ($principal->exists) {
-            return [
-                'principal' => $principal,
-                'facade_screen_fronts' => [
-                    'nombre' => $principal->exists ? $principal->nombre : '',
-                    'publicidad1' => $principal->exists ? $principal->getFirstMediaUrl('publicidad1') : '',
-                ],
-            ];
-        }
-        
+{
+    if ($principal->exists) {
         return [
             'principal' => $principal,
+            'facade_screen_fronts' => [
+                'nombre' => $principal->exists ? $principal->nombre : '',
+                'publicidad1' => $principal->exists ? $principal->getFirstMediaUrl('publicidad1') : '',
+                'publicidad2' => $principal->exists ? $principal->getFirstMediaUrl('publicidad2') : '',
+                'publicidad3' => $principal->exists ? $principal->getFirstMediaUrl('publicidad3') : '',
+                'publicidad4' => $principal->exists ? $principal->getFirstMediaUrl('publicidad4') : '',
+                'position' => $principal->exists ? $principal->position : '',
+            ],
         ];
     }
+    
+    return [
+        'principal' => $principal,
+    ];
+}
 
     /**
      * The name of the screen displayed in the header.
@@ -84,7 +88,6 @@ class HomeEditScreen extends Screen
     {
         return [
             Layout::columns([
-
                 Layout::rows([
                     Input::make('principal.nombre')
                         ->title('Nombre')
@@ -92,100 +95,76 @@ class HomeEditScreen extends Screen
                         ->help('Especifica un título descriptivo corto para esta feria.')
                         ->required()
                         ->value($this->principal->exists ? $this->principal->nombre : ''),
-                    Group::make([
-                        Input::make('principal.publicidad1')
-                            ->title('Primera imagen')
-                            ->type('file')
-                            ->help('Sube una imagen para la publicidad #1')
-                            ->value($this->principal->exists ? $this->principal->getFirstMediaUrl('publicidad1') : ''),
 
-                        /*Input::make('facade_screen_fronts.publicidad2')
-                            ->title('Segunda imagen')
-                            ->type('file')
-                            ->help('Sube una imagen para la publicidad #2'),
-
-                        Input::make('facade_screen_fronts.publicidad3')
-                            ->title('Tercera imagen')
-                            ->type('file')
-                            ->help('Sube una imagen para la publicidad #3'),*/
-                    ]),
-                    /*Group::make([
-                        Input::make('facade_screen_fronts.publicidad4')
-                            ->title('Cuarta imagen')
-                            ->type('file')
-                            ->help('Sube una imagen para la publicidad #4'),
-                        Input::make('facade_screen_fronts.publicidad5')
-                            ->title('Quita imagen')
-                            ->type('file')
-                            ->help('Sube una imagen para la publicidad #5'),
-                    ]),
                     Select::make('facade_screen_fronts.position')
-                        ->options([
-                            'principal' => 'Principal',
-                            'right' => 'derecha',
-                            'back' => 'Tracera',
-                            'left' => 'Izquierda',
-                        ])
-                        ->empty('Seleccione una.')
-                        ->title('Select tags')
-                        ->help('Seleccione una posicion'),
+                    ->options([
+                        'principal' => 'Principal',
+                        'right'     => 'Secundaria',
+                        'left'      => 'Tercera',
+                    ])
+                    ->empty('Seleccione una posición.')
+                    ->title('Posición')
+                    ->help('Seleccione una posición')
+                    ->value($this->principal->exists ? $this->principal->position : ''),
 
-                ]),
-                Layout::rows([
-                    Input::make('facade_screen_fronts.banner1')
-                        ->title('Banenr #1')
-                        ->placeholder('Ingresa el nombre de la feria')
-                        ->help('Imagen del banner numero 1')
+                    Input::make('principal.publicidad1')
+                        ->title('Primera imagen')
                         ->type('file')
-                        ->required(),
+                        ->help('Sube una imagen para la publicidad #1'),
 
-                    Input::make('facade_screen_fronts.banner2')
-                        ->title('Banenr #2')
-                        ->placeholder('Ingresa el nombre de la feria')
-                        ->help('Imagen del banner numero 2')
+                    Input::make('facade_screen_fronts.publicidad2')
+                        ->title('Segunda imagen')
                         ->type('file')
-                        ->required(),
-                    Input::make('facade_screen_fronts.banner3')
-                        ->title('Banenr #3')
-                        ->placeholder('Ingresa el nombre de la feria')
-                        ->help('Imagen del banner numero 3')
+                        ->help('Sube una imagen para la publicidad #2'),
+
+                    Input::make('facade_screen_fronts.publicidad3')
+                        ->title('Tercera imagen')
                         ->type('file')
-                        ->required(),
-                    Input::make('facade_screen_fronts.banner4')
-                        ->title('Banenr #4')
-                        ->placeholder('Ingresa el nombre de la feria')
-                        ->help('Imagen del banner numero 4')
+                        ->help('Sube una imagen para la publicidad #3'),
+
+                    Input::make('facade_screen_fronts.publicidad4')
+                        ->title('Cuarta imagen')
                         ->type('file')
-                        ->required(),*/
+                        ->help('Sube una imagen para la publicidad #4'),
                 ]),
+
+                // Cargar el script
+                Layout::view('partials.script'),
             ]),
-
         ];
     }
 
     public function createOrUpdate(Request $request, FacadeScreenFront $principal)
     {
-        $request->validate([
+        $position = $request->input('facade_screen_fronts.position');
+
+        $rules = [
             'principal.nombre' => 'required',
             'principal.publicidad1' => 'required',
-            /*'facade_screen_fronts.publicidad2' => 'required',
-            'facade_screen_fronts.publicidad3' => 'required',
-            'facade_screen_fronts.publicidad4' => 'required',
-            'facade_screen_fronts.publicidad5' => 'required',
-            'facade_screen_fronts.nombre' => 'required',
-            'facade_screen_fronts.banner1' => 'required',
-            'facade_screen_fronts.banner2' => 'required',
-            'facade_screen_fronts.banner3' => 'required',
-            'facade_screen_fronts.banner4' => 'required',*/
+        ];
 
-        ]);
+        if ($position === 'right' || $position === 'left') {
+            $rules['facade_screen_fronts.publicidad2'] = 'required';
+        }
+        if ($position === 'left') {
+            $rules['facade_screen_fronts.publicidad3'] = 'required';
+            $rules['facade_screen_fronts.publicidad4'] = 'required';
+        }
+
+        $request->validate($rules);
+
+        // Guardar posición
+        $principal->position = $position;
+
+        // Limpiar colecciones
         $this->clearAllMediaCollections($principal);
-        $this->addImagesToCollections($principal, $request);
+
+        // Guardar nombre
         $principal->fill([
             'nombre' => $request->input('principal.nombre'),
         ])->save();
 
-        $this->clearAllMediaCollections($principal);
+        // Añadir imágenes
         $this->addImagesToCollections($principal, $request);
 
         Toast::info(__('Cambios realizados exitosamente.'));
@@ -196,7 +175,7 @@ class HomeEditScreen extends Screen
 
     protected function clearAllMediaCollections(FacadeScreenFront $principal)
     {
-        $collections = ['publicidad1'/*, 'publicidad2', 'publicidad3', 'publicidad4', 'publicidad5', 'banner1', 'banner2', 'banner3', 'banner4'*/];
+        $collections = ['publicidad1', 'publicidad2', 'publicidad3', 'publicidad4'/*, 'publicidad5', 'banner1', 'banner2', 'banner3', 'banner4'*/];
         foreach ($collections as $collection) {
             $principal->clearMediaCollection($collection);
         }
@@ -214,7 +193,7 @@ class HomeEditScreen extends Screen
                         ->toMediaCollection($field);
             }
         }
-        /*if ($request->hasFile('facade_screen_fronts.publicidad1')) {
+        if ($request->hasFile('facade_screen_fronts.publicidad1')) {
             $principal->addMedia($request->file('facade_screen_fronts.publicidad1'))->toMediaCollection('publicidad1');
         }
         if ($request->hasFile('facade_screen_fronts.publicidad2')) {
@@ -226,7 +205,7 @@ class HomeEditScreen extends Screen
         if ($request->hasFile('facade_screen_fronts.publicidad4')) {
             $principal->addMediaFromRequest('facade_screen_fronts.publicidad4')->toMediaCollection('publicidad4');
         }
-        if ($request->hasFile('facade_screen_fronts.publicidad5')) {
+        /*if ($request->hasFile('facade_screen_fronts.publicidad5')) {
             $principal->addMediaFromRequest('facade_screen_fronts.publicidad5')->toMediaCollection('publicidad5');
         }
         if ($request->hasFile('facade_screen_fronts.banner1')) {

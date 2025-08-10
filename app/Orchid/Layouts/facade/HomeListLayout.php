@@ -50,7 +50,7 @@ class HomeListLayout extends Table
                         $images[] = $data->getFirstMediaUrl('publicidad2');
                     }
 
-                    if ($data->position === 'left') {
+                    if ($data->position === 'right') {
                         $images[] = $data->getFirstMediaUrl('publicidad3');
                         $images[] = $data->getFirstMediaUrl('publicidad4');
                     }

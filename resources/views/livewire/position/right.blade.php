@@ -65,7 +65,7 @@
 
         <!-- trasera -->
 
-       <button class="btn btn-lg rounded-circle  position-absolute top-btn custom-button button-image"  wire:click="back()" title="Lateral izquierdo">
+       <button class="btn btn-lg rounded-circle  position-absolute top-btn custom-button button-image"  wire:click="left()" title="Lateral izquierdo">
 
         </button>
 
@@ -89,7 +89,7 @@
 
             title="Lateral izquierdo"
 
-            wire:click="left()">
+            wire:click="front()">
 
         </button>
 

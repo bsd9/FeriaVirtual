@@ -99,8 +99,8 @@ class HomeEditScreen extends Screen
                     Select::make('facade_screen_fronts.position')
                     ->options([
                         'principal' => 'Principal',
-                        'right'     => 'Secundaria',
-                        'left'      => 'Tercera',
+                        'right'     => 'Derecha',
+                        'left'      => 'Izquierda',
                     ])
                     ->empty('Seleccione una posición.')
                     ->title('Posición')
@@ -146,7 +146,7 @@ class HomeEditScreen extends Screen
         if ($position === 'right' || $position === 'left') {
             $rules['facade_screen_fronts.publicidad2'] = 'required';
         }
-        if ($position === 'left') {
+        if ($position === 'right') {
             $rules['facade_screen_fronts.publicidad3'] = 'required';
             $rules['facade_screen_fronts.publicidad4'] = 'required';
         }

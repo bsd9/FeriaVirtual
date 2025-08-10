@@ -19,9 +19,9 @@
                 if (group) group.style.display = 'none';
             });
 
-            if (value === 'right') {
+            if (value === 'left') {
                 if (pub2) pub2.style.display = 'block';
-            } else if (value === 'left') {
+            } else if (value === 'right') {
                 if (pub2) pub2.style.display = 'block';
                 if (pub3) pub3.style.display = 'block';
                 if (pub4) pub4.style.display = 'block';
@@ -29,7 +29,7 @@
         }
 
         toggleFields();
-        select.removeEventListener('change', toggleFields); // Evitar duplicados
+        select.removeEventListener('change', toggleFields);
         select.addEventListener('change', toggleFields);
     }
 </script>

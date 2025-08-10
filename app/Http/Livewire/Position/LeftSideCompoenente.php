@@ -43,7 +43,7 @@ class LeftSideCompoenente extends Component
     public function mount()
     {
         $this->model = Feria::first();
-        $this->publicitiLeft = FacadeScreenFront::where('position', 'back')->first();
+        $this->publicitiLeft = FacadeScreenFront::where('position', 'left')->first();
     }
 
     public function render()

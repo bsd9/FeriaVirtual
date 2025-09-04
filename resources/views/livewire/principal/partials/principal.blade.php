@@ -70,53 +70,57 @@
 
 
 
+    <!-- Botón izquierdo -->
     <foreignObject x="1%" y="37%" width="80" height="80">
-
         <body xmlns="http://www.w3.org/1999/xhtml">
-
-        <!-- izquierda -->
-
-        <button class="btn btn-lg rounded-circle  position-absolute top-btn custom-button button-imagen-izquierda"  wire:click="left()" title="Lateral izquierdo">
-
-        </button>
-
+            <button class="btn btn-lg rounded-circle position-absolute top-btn custom-button button-imagen-izquierda" wire:click="left()" title="Lateral izquierdo">
+            
+            </button>
         </body>
-
     </foreignObject>
 
-
+    <!-- Botón derecho -->
     <foreignObject x="95%" y="37%" width="80" height="80">
-
         <body xmlns="http://www.w3.org/1999/xhtml">
-
-        <!-- Derecha -->
-
-        <button class="btn btn-lg rounded-circle position-absolute top-btncustom-button button-imagen-derecha"  wire:click="right()" title="Lateral derecho">
-
-        </button>
-
-        </body>
-
-    </foreignObject>
-
-
-
-    <foreignObject x="82%" y="78%" width="18%" height="15%"> 
-        <body xmlns="http://www.w3.org/1999/xhtml">
-            @livewire('social-networks', ['horizontal' => true]) 
+            <button class="btn btn-lg rounded-circle position-absolute top-btn custom-button button-imagen-derecha" wire:click="right()" title="Lateral derecho">
+                
+            </button>
         </body>
     </foreignObject>
 
-    <!-- Div o rectángulo con clases y estilos -->
+    <!-- Icono de casa (Home) - Esquina superior derecha -->
+    <foreignObject x="92%" y="2%" width="60" height="60">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome()" title="Inicio">
+                <!-- Icono normal -->
+                <img src="{{ asset('resources/IcnHome.svg') }}" width="40" height="40" alt="Inicio" class="home-normal" />
+                <!-- Icono hover -->
+                <img src="{{ asset('resources/Home.svg') }}" width="40" height="40" alt="Inicio" class="home-hover" style="display: none;" />
+            </button>
+        </body>
+    </foreignObject>
 
+    <!-- Icono de menú hamburguesa (☰) -->
+    <foreignObject x="95%" y="1%" width="100" height="100">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <button class="btn btn-sm rounded-circle position-absolute menu-icon" wire:click="toggleMenu()" title="Menú">
+                <img src="{{ asset('resources/Grupo.svg') }}" width="100" height="60" alt="Menú" />
+            </button>
+        </body>
+    </foreignObject>
+
+    <!-- Redes sociales -->
+    <foreignObject x="82%" y="78%" width="18%" height="15%">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            @livewire('social-networks', ['horizontal' => true])
+        </body>
+    </foreignObject>
+
+    <!-- Imagen publicitaria -->
     <foreignObject x="869" y="337" width="204" height="145">
-
         <body xmlns="http://www.w3.org/1999/xhtml">
-
-        <img id="imagen1" src="{{$this->publiciti->getFirstMediaUrl('publicidad1')}}" width="100%" height="100%" />
-
+            <img id="imagen1" src="{{$this->publiciti->getFirstMediaUrl('publicidad1')}}" width="100%" height="100%" />
         </body>
-
     </foreignObject>
 
 </svg>

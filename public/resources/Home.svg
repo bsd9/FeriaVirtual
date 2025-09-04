@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Elipse_27" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Home" transform="translate(7.5 7.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Elipse_27)">
+      <circle id="Elipse_27-2" data-name="Elipse 27" cx="25" cy="25" r="25" transform="translate(7.5 7.5)" fill="#fff"/>
+    </g>
+    <path id="Icn_Home" data-name="Icn Home" d="M18.4,6.132,4.785,17.353a.32.32,0,0,1-.012.071.317.317,0,0,0-.012.071v12.12a1.537,1.537,0,0,0,1.515,1.516h8.15a.94.94,0,0,0,.94-.94V21.1a3.03,3.03,0,0,1,6.061,0v9.092a.94.94,0,0,0,.94.94h8.15a1.539,1.539,0,0,0,1.516-1.516V17.495a.334.334,0,0,0-.024-.142Zm17.7,7.734L20.2.616a2.937,2.937,0,0,0-3.6,0L.684,13.865a1.9,1.9,0,1,0,2.43,2.918L18.4,4.049,33.665,16.783a1.9,1.9,0,1,0,2.429-2.916" transform="translate(6.611 9.434)" fill="#4348bc"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.661" height="65" viewBox="0 0 97.661 65">
+  <defs>
+    <filter id="Trazado_8" x="0" y="0" width="97.661" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_3" data-name="Grupo 3" transform="translate(-3908.839 122.5)">
+    <g transform="matrix(1, 0, 0, 1, 3908.84, -122.5)" filter="url(#Trazado_8)">
+      <path id="Trazado_8-2" data-name="Trazado 8" d="M82.661,50H25A25,25,0,0,1,25,0H82.661Z" transform="translate(7.5 7.5)" fill="#fff"/>
+    </g>
+    <g id="Menú" transform="translate(72)">
+      <line id="Línea_7" data-name="Línea 7" x2="23.901" transform="translate(3857.389 -97.812)" fill="none" stroke="#4348bc" stroke-linecap="round" stroke-width="4"/>
+      <line id="Línea_8" data-name="Línea 8" x2="23.901" transform="translate(3857.389 -90)" fill="none" stroke="#4348bc" stroke-linecap="round" stroke-width="4"/>
+      <line id="Línea_9" data-name="Línea 9" x2="23.901" transform="translate(3857.389 -82.188)" fill="none" stroke="#4348bc" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

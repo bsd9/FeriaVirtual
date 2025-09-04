@@ -97,6 +97,27 @@
 
     </foreignObject>
 
+    <!-- Icono de casa (Home) - Esquina superior derecha -->
+    <foreignObject x="92%" y="2%" width="60" height="60">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome()" title="Inicio">
+                <!-- Icono normal -->
+                <img src="{{ asset('resources/IcnHome.svg') }}" width="40" height="40" alt="Inicio" class="home-normal" />
+                <!-- Icono hover -->
+                <img src="{{ asset('resources/Home.svg') }}" width="40" height="40" alt="Inicio" class="home-hover" style="display: none;" />
+            </button>
+        </body>
+    </foreignObject>
+
+    <!-- Icono de menú hamburguesa (☰) -->
+    <foreignObject x="95%" y="1%" width="100" height="100">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <button class="btn btn-sm rounded-circle position-absolute menu-icon" wire:click="toggleMenu()" title="Menú">
+                <img src="{{ asset('resources/Grupo.svg') }}" width="100" height="60" alt="Menú" />
+            </button>
+        </body>
+    </foreignObject>
+
 
     <foreignObject x="82%" y="78%" width="18%" height="15%"> 
         <body xmlns="http://www.w3.org/1999/xhtml">

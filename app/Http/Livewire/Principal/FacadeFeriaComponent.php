@@ -172,7 +172,10 @@ class FacadeFeriaComponent extends Component
 
     }
 
-
+    public function goHome()
+    {
+        return redirect('/');
+    }
 
     public function goToFeria()
 

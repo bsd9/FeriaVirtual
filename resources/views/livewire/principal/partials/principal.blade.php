@@ -89,16 +89,25 @@
     </foreignObject>
 
     <!-- Icono de casa (Home) - Esquina superior derecha -->
-    <foreignObject x="92%" y="2%" width="60" height="60">
-        <body xmlns="http://www.w3.org/1999/xhtml">
-            <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome()" title="Inicio">
-                <!-- Icono normal -->
-                <img src="{{ asset('resources/IcnHome.svg') }}" width="40" height="40" alt="Inicio" class="home-normal" />
-                <!-- Icono hover -->
-                <img src="{{ asset('resources/Home.svg') }}" width="40" height="40" alt="Inicio" class="home-hover" style="display: none;" />
+<foreignObject x="92%" y="2%" width="60" height="60">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+        <div style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin: 0 auto;
+        ">
+            <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome" title="Inicio" style="background: none; border: none; padding: 0; cursor: pointer;">
+                <img src="{{ asset('resources/IcnHome.svg') }}" width="32" height="32" alt="Inicio" class="home-normal" />
             </button>
-        </body>
-    </foreignObject>
+        </div>
+    </body>
+</foreignObject>
 
     <!-- Icono de menú hamburguesa (☰) -->
     <foreignObject x="95%" y="1%" width="100" height="100">
@@ -125,3 +134,83 @@
 
 </svg>
 
+@if($menuOpen)
+    <!-- Fondo oscuro -->
+    <div wire:click="toggleMenu"
+            style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 9998;">
+    </div>
+
+    <!-- Modal lateral -->
+    <div style="
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 320px;
+        height: 100%;
+        background: white;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        z-index: 9999;
+        transform: translateX(0);
+        transition: transform 0.3s ease;
+        overflow-y: auto;
+    ">
+        <!-- Encabezado -->
+        <div style="padding: 1.5rem; border-bottom: 1px solid #e0e0e0;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <img src="{{ asset('images/logo.png') }}" alt="Logo Virtual Ex" style="height: 32px;">
+                <button wire:click="toggleMenu" style="font-size: 1.8rem; color: #999; background: none; border: none; cursor: pointer;">&times;</button>
+            </div>
+        </div>
+
+        <!-- Contenido -->
+        <div style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                <div style="
+                    width: 40px;
+                    height: 40px;
+                    background-color: #3b82f6;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.33 0-4.25 1.88-4.25 4.25 0 .34.04.67.11.99l.05.23h8.18l.05-.23c.07-.32.11-.65.11-.99 0-2.37-1.92-4.25-4.25-4.25z"/>
+                    </svg>
+                </div>
+                <div style="margin-left: 12px;">
+                    <p style="font-weight: bold; color: #1f2937; margin: 0;">Visitante</p>
+                </div>
+            </div>
+
+            <!-- Opciones -->
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 1rem;">
+                    <button wire:click="front" wire:target="front" wire:loading.attr="disabled"
+                            wire:loading.class="text-gray-400 cursor-not-allowed"
+                            style="display: flex; align-items: center; color: #374151; font-size: 1rem; background: none; border: none; cursor: pointer; width: 100%; text-align: left; transition: color 0.2s;"
+                            onmouseover="this.style.color='#2563eb'"
+                            onmouseout="this.style.color='#374151'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3b82f6" viewBox="0 0 24 24" style="flex-shrink: 0; margin-right: 8px;">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>Interior de la feria</span>
+                    </button>
+                </li>
+                <li style="margin-bottom: 1rem;">
+                    <button wire:click="goToFeria" wire:target="goToFeria" wire:loading.attr="disabled"
+                            wire:loading.class="text-gray-400 cursor-not-allowed"
+                            style="display: flex; align-items: center; color: #374151; font-size: 1rem; background: none; border: none; cursor: pointer; width: 100%; text-align: left; transition: color 0.2s;"
+                            onmouseover="this.style.color='#2563eb'"
+                            onmouseout="this.style.color='#374151'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3b82f6" viewBox="0 0 24 24" style="flex-shrink: 0; margin-right: 8px;">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14h2v-2h10v2h2V5c0-1.1-.9-2-2-2zM9 17H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"/>
+                        </svg>
+                        <span>Estantes</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+@endif

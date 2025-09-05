@@ -87,12 +87,21 @@
     <!-- Icono de casa (Home) - Esquina superior derecha -->
     <foreignObject x="92%" y="2%" width="60" height="60">
         <body xmlns="http://www.w3.org/1999/xhtml">
-            <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome()" title="Inicio">
-                <!-- Icono normal -->
-                <img src="{{ asset('resources/IcnHome.svg') }}" width="40" height="40" alt="Inicio" class="home-normal" />
-                <!-- Icono hover -->
-                <img src="{{ asset('resources/Home.svg') }}" width="40" height="40" alt="Inicio" class="home-hover" style="display: none;" />
-            </button>
+            <div style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 48px;
+                height: 48px;
+                background-color: white;
+                border-radius: 50%;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                margin: 0 auto;
+            ">
+                <button class="btn btn-sm rounded-circle position-absolute home-icon" wire:click="goHome" title="Inicio" style="background: none; border: none; padding: 0; cursor: pointer;">
+                    <img src="{{ asset('resources/IcnHome.svg') }}" width="32" height="32" alt="Inicio" class="home-normal" />
+                </button>
+            </div>
         </body>
     </foreignObject>
 

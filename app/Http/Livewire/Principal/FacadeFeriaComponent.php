@@ -79,6 +79,9 @@ class FacadeFeriaComponent extends Component
     public $publicitiRigth;
 
 
+    public $menuOpen = false;
+
+
 
     public function back()
 
@@ -175,6 +178,11 @@ class FacadeFeriaComponent extends Component
     public function goHome()
     {
         return redirect('/');
+    }
+
+    public function toggleMenu()
+    {
+        $this->menuOpen = !$this->menuOpen;
     }
 
     public function goToFeria()

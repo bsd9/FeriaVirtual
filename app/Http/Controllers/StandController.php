@@ -5,97 +5,146 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreStandRequest;
 use App\Models\Feria;
 use App\Models\Stand;
+use App\Models\Pavilion;
+use App\Models\PavilionStandType;
 use Illuminate\Http\Request;
 use Orchid\Support\Facades\Alert;
 
 class StandController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        $stand = Stand::get();
-
-        return view('stand.index', compact('stand'));
+        $stands = Stand::with('pavilion', 'feria')->get();
+        return view('stand.index', compact('stands'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
         $ferias = Feria::all();
+        $pavilions = Pavilion::all(); // ← Cargar pabellones
 
-        return view('stand.create',
-            [
-                'ferias' => $ferias,
-            ]
-        );
+        return view('stand.create', compact('ferias', 'pavilions'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(StoreStandRequest $request)
+    {
+        // Validación adicional
+        $request->validate([
+            'pavilion_id' => 'required|exists:pavilions,id',
+            'type' => 'required|in:basic,medium,high',
+        ]);
+
+        // Validar límite por pabellón y tipo
+        $pavilionId = $request->pavilion_id;
+        $standType = $request->type;
+
+        $limitConfig = PavilionStandType::where('pavilion_id', $pavilionId)
+            ->where('stand_type', $standType)
+            ->first();
+
+        if (!$limitConfig) {
+            Alert::error("El tipo de stand '{$standType}' no está permitido en este pabellón.");
+            return back()->withInput();
+        }
+
+        $currentCount = Stand::where('pavilion_id', $pavilionId)
+            ->where('type', $standType)
+            ->count();
+
+        if ($currentCount >= $limitConfig->max_stands) {
+            Alert::error("No se pueden crear más de {$limitConfig->max_stands} stands del tipo '{$standType}' en este pabellón.");
+            return back()->withInput();
+        }
+
+        // Crear stand
+        $stand = new Stand();
+        $stand->name = $request->name;
+        $stand->descriptions = $request->descriptions;
+        $stand->feria_id = $request->feria_id;
+        $stand->pavilion_id = $pavilionId; // ← Asignar pabellón
+        $stand->type = $standType;         // ← Asignar tipo
+        $stand->save();
+
+        // Adjuntar imagen
+        if ($request->hasFile('image')) {
+            $stand->addMedia($request->file('image'))->toMediaCollection('images');
+        }
+
+        Alert::info('Stand creado correctamente.');
+        return redirect()->route('platform.stands');
+    }
+
+    public function edit(string $id)
+    {
+        $stand = Stand::findOrFail($id);
+        $ferias = Feria::all();
+        $pavilions = Pavilion::all();
+
+        return view('stand.edit', compact('stand', 'ferias', 'pavilions'));
+    }
+
+    public function update(Request $request, string $id)
     {
         $request->validate([
             'name' => 'required|string|max:255',
             'descriptions' => 'required|string',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'feria_id' => 'required',
+            'feria_id' => 'required|exists:ferias,id',
+            'pavilion_id' => 'required|exists:pavilions,id',
+            'type' => 'required|in:basic,medium,high',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
-        $producto = new Stand();
-        $producto->name = $request->name;
-        $producto->descriptions = $request->descriptions;
-        $producto->feria_id = $request->feria_id;
-        $producto->save();
-
-        if ($request->hasFile('image')) {
-            $producto->addMedia($request->file('image'))->toMediaCollection('images');
-        }
-        Alert::info('You have successfully created a stand.');
-
-        return redirect()->route('platform.stands')->with('success', 'Producto creado correctamente.');
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
         $stand = Stand::findOrFail($id);
 
-        return view('stand.edit', [
-            'stand' => $stand,
-            'ferias' => Feria::select('name', 'id')->all(),
-            'image' => $stand->media,
-        ]
-        );
+        // Validar límite (excluyendo el propio stand si ya existe)
+        $pavilionId = $request->pavilion_id;
+        $standType = $request->type;
+
+        $limitConfig = PavilionStandType::where('pavilion_id', $pavilionId)
+            ->where('stand_type', $standType)
+            ->first();
+
+        if (!$limitConfig) {
+            Alert::error("El tipo de stand '{$standType}' no está permitido en este pabellón.");
+            return back()->withInput();
+        }
+
+        $currentCount = Stand::where('pavilion_id', $pavilionId)
+            ->where('type', $standType)
+            ->where('id', '!=', $stand->id)
+            ->count();
+
+        if ($currentCount >= $limitConfig->max_stands) {
+            Alert::error("No se pueden tener más de {$limitConfig->max_stands} stands del tipo '{$standType}' en este pabellón.");
+            return back()->withInput();
+        }
+
+        // Actualizar datos
+        $stand->name = $request->name;
+        $stand->descriptions = $request->descriptions;
+        $stand->feria_id = $request->feria_id;
+        $stand->pavilion_id = $pavilionId;
+        $stand->type = $standType;
+        $stand->save();
+
+        // Actualizar imagen si se sube una nueva
+        if ($request->hasFile('image')) {
+            // Eliminar imagen anterior (opcional)
+            $stand->clearMediaCollection('images');
+            $stand->addMedia($request->file('image'))->toMediaCollection('images');
+        }
+
+        Alert::info('Stand actualizado correctamente.');
+        return redirect()->route('platform.stands');
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(string $id)
     {
-        //
+        $stand = Stand::findOrFail($id);
+        $stand->clearMediaCollection('images'); // Opcional: eliminar imágenes
+        $stand->delete();
+
+        Alert::info('Stand eliminado correctamente.');
+        return redirect()->route('platform.stands');
     }
 }

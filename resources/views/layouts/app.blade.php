@@ -12,11 +12,11 @@
 
     @csrf
 
-    <title>Bienvenido a Feria Virtual - Fair360</title>
+    <title>Bienvenido a Feria Virtual - Virtual Ex</title>
 
 
 
-    <meta name="description" content="¡Bienvenido a la Feria Virtual de Fair360! Explora una amplia variedad de expositores, eventos y oportunidades de networking. ¡Únete a nosotros y descubre todo lo que nuestra feria tiene para ofrecer!">
+    <meta name="description" content="¡Bienvenido a la Feria Virtual de Virtual Ex! Explora una amplia variedad de expositores, eventos y oportunidades de networking. ¡Únete a nosotros y descubre todo lo que nuestra feria tiene para ofrecer!">
 
 
 

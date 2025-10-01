@@ -17,6 +17,7 @@ use Orchid\Screen\Fields\Upload;
 use Orchid\Screen\Screen;
 use Orchid\Support\Facades\Alert;
 use Orchid\Support\Facades\Layout;
+use App\Models\Pavilion;
 
 class StandsEditScreen extends Screen
 {
@@ -34,7 +35,7 @@ class StandsEditScreen extends Screen
     {
         return [
             'stand' => $stand,
-
+            'pavilions' => Pavilion::all(),
         ];
     }
 
@@ -92,6 +93,20 @@ class StandsEditScreen extends Screen
         return [
             Layout::columns([
                 Layout::rows([
+                    Relation::make('stand.pavilion_id')
+                        ->fromModel(Pavilion::class, 'name')
+                        ->title('Pabellón')
+                        ->required(),
+
+                    Select::make('stand.type')
+                        ->options([
+                            'basic' => 'Básico',
+                            'medium' => 'Medio',
+                            'high' => 'Alto',
+                        ])
+                        ->title('Tipo de stand')
+                        ->empty('Selecciona uno')
+                        ->required(),
                     Group::make([
                         Input::make('stand.name')
                             ->title('Nombre')
@@ -152,40 +167,57 @@ class StandsEditScreen extends Screen
         ];
     }
 
-    public function createOrUpdate(Request $request, Stand $stand, Exhibitor $exhibitor)
+    public function createOrUpdate(Request $request, Stand $stand)
     {
-        $organizacionId = auth()->user()->id;
-        $request->merge(['post' => [$request->get('stand')]]);
         $request->validate([
             'stand.name' => ['required', 'min:10'],
             'stand.descriptions' => ['required'],
             'stand.feria_id' => ['required'],
             'stand.exhibitor_id' => ['required'],
+            'stand.pavilion_id' => ['required'],
             'stand.type' => ['required'],
-
-        ]);
-        $input = $stand->exists ? 'stand.image' : 'upload';
-
-        $value = $request->get('stand');
-
-        $exhibitor->update([
-            'estand_id' => $request->id,
         ]);
 
-        $stand->user()->associate($organizacionId);
-        $stand->fill($value);
+        $data = $request->input('stand');
 
-        if (isset($request->input($input)[0])) {
-            $stand->image = $request->input($input)[0];
+        $pavilionId = $data['pavilion_id'];
+        $standType = $data['type'];
+
+        $limitConfig = \App\Models\PavilionStandType::where('pavilion_id', $pavilionId)
+            ->where('stand_type', $standType)
+            ->first();
+
+        if (!$limitConfig) {
+            Alert::error("El tipo de stand '{$standType}' no está permitido en este pabellón.");
+            return back()->withInput();
+        }
+
+        $currentCount = Stand::where('pavilion_id', $pavilionId)
+            ->where('type', $standType)
+            ->when($stand->exists, fn($q) => $q->where('id', '!=', $stand->id))
+            ->count();
+
+        if ($currentCount >= $limitConfig->max_stands) {
+            Alert::error("No se pueden crear más de {$limitConfig->max_stands} stands del tipo '{$standType}' en este pabellón.");
+            return back()->withInput();
+        }
+
+        $stand->user_id = auth()->id();
+
+        $stand->fill($data);
+        
+        $inputKey = $stand->exists ? 'stand.image' : 'upload';
+        if ($image = $request->input($inputKey)) {
+            $stand->image = $image[0] ?? null;
         }
 
         $stand->save();
 
         $stand->attachment()->syncWithoutDetaching(
-            $request->input($input, [])
+            $request->input($inputKey, [])
         );
-        Alert::info('You have successfully created a stand.');
 
+        Alert::info($stand->exists ? 'Stand actualizado correctamente.' : 'Stand creado correctamente.');
         return redirect()->route('platform.stands');
     }
 

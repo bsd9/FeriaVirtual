@@ -31,6 +31,7 @@ class Stand extends Model
         'type',
         'is_active',
         'image',
+        'pavilion_id',
     ];
 
     protected $allowedFilters = [
@@ -74,6 +75,11 @@ class Stand extends Model
     public function scopeActive($query)
     {
         return $query->where('is_active', 1);
+    }
+
+    public function pavilion()
+    {
+        return $this->belongsTo(Pavilion::class);
     }
 
     protected static function boot()

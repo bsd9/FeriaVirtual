@@ -227,6 +227,6 @@ class HomeEditScreen extends Screen
         $this->principal->delete();
         Alert::success('Éxito. Has eliminado la compañía con éxito.');
 
-        return redirect()->route('platform.pricipals');
+        return redirect()->route('platform.principals');
     }
 }
